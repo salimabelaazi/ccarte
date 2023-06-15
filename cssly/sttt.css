@@ -1,0 +1,197 @@
+body{
+padding: 30px;
+margin: 30px;
+
+}
+.logogroup{
+    text-align: left;
+    width: 268px;
+    height: 33px;
+    margin: 10px;
+}
+.abd{
+    text-align: right;
+    list-style-type: none;
+    display: flex;
+    padding: 0 0.6em;
+    position: relative;
+    float: right;
+    margin-top: 0;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.abd:hover{
+    text-decoration: underline;
+}
+
+.sygnet{
+    display: block;
+    margin: 0,auto;
+    text-align: center;
+}
+
+.Making{
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.p1{
+    width: 500px;
+    height: max-content;
+    font-size: 20px;
+    color: #a59f9f;
+    display: inline-block;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-family: roboto,atiel,sans-serif;
+} 
+.p2{
+    width: 500px;
+    height: min-content;
+    font-size: 20px;
+    color: #a5a5a5;
+    display: inline-block;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-family: roboto,ariel,sans-serif;
+}   
+
+.container{
+    display:flex;
+    flex-flow: row ;
+    justify-content: center;
+    margin: 10px;
+    width: 1000px;
+    height: 300px;
+}
+
+.box1{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background: #00ccb1
+}
+
+.box2{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background: #00ccb1 
+
+}
+
+.box3{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background: #00ccb1
+}
+.arg{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.choose{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.bra{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+.ita{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.container22 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,auto);
+}
+.logo_tutotempo img{
+    height: 16px;
+}
+
+.logo_gipo img {
+    height: 34px;
+}
+
+.logo_znamylekar {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+}
+
+
+
+
+
+
